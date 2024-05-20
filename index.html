@@ -12,6 +12,43 @@
 	<link rel="Icon" href="assets/images/logo_kalkulator.png" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <section class="title">
+            <h1>Kalkulator Matematika</h1>
+            <h2>(Segitiga)</h2>
+            <p>Welcome to website Kalkulator matematika, mari menghitung luas dan keliling Segitiga</p>
+        </section>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <section class="card">
+                    <h2>Luas Segitiga</h2>
+                    <img src="assets/images/img-segitiga.png" alt="">
+                    <h3>L = 1/2 x a x t</h3>
+                    <form action="luas_segitiga.php" method="post">
+                        <input type="number" name="alas" id="alas" placeholder="Alas" required>
+                        <input type="number" name="tinggi" id="tinggi" placeholder="Tinggi" required>
+                        <button>Hitung</button>
+                    </form>
+                </section>
+            </div>
     
+            <div class="content">
+                <section class="card">
+                    <h2>Keliling Segitiga</h2>
+                    <img src="assets/images/img-segitiga.png" alt="">
+                    <h3>K = s + s + s</h3>
+                    <form action="keliling_segitiga.php" method="post">
+                        <input type="number" name="sisi1" id="sisi1" placeholder="Sisi 1" required>
+                        <input type="number" name="sisi2" id="sisi2" placeholder="Sisi 2" required>
+                        <input type="number" name="sisi2" id="sisi2" placeholder="Sisi 3" required>
+                        <button>Hitung</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

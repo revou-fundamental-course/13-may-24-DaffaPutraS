@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #ebeaea;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border: 1px solid;
+    background-color: white;
+    box-shadow: 5px 5px #836FFF, 10px 10px #15F5BA;
+    border-radius: 13px;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.title h2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    background-color: white;
+}
+
+.title p {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+
+main {
+    margin-top: 1rem;
+}
+
+.container {
+    margin-top: -1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.content {
+    flex: 1;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 13px;
+    border: 1px solid;
+    background-color: white;
+    box-shadow: 5px 5px #836FFF, 10px 10px #15F5BA;
+    height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.card h2,
+.card h3,
+.card form {
+    background-color:white;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
