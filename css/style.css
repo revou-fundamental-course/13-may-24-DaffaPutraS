@@ -59,8 +59,7 @@ main {
 
 .content {
     flex: 1;
-    min-width: 350px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .card {
@@ -185,5 +184,15 @@ footer {
     .content {
         width: 100%;
         max-width: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    *{
+        padding: 0.3rem;
+    }
+
+    .content {
+        margin-top: 1rem;
     }
 }
